@@ -50,4 +50,4 @@ jobs:
           app-name: 'wfnoise'
           slot-name: 'Production'
           publish-profile: ${{ secrets.AZUREAPPSERVICE_PUBLISHPROFILE }}
-          package: '*.jar'
+          package: my/target/*.jar
