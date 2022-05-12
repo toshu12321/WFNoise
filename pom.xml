@@ -54,7 +54,7 @@
 			    <schemaVersion>v2</schemaVersion>
 			    <subscriptionId>d8d3f55a-8679-4dad-bbe3-3b851100c78e</subscriptionId>
 			    <resourceGroup>ASP-rgPaymentTrackerTeam-857d</resourceGroup>
-			    <appName>wf-noise</appName>
+			    <appName>WFNoise</appName>
 			    <pricingTier>P1v2</pricingTier>
 			    <region>eastus</region>
 			    <runtime>
