@@ -49,5 +49,5 @@ jobs:
         with:
           app-name: 'wfnoise'
           slot-name: 'Production'
-          publish-profile: ${{ secrets.AZUREAPPSERVICE_PUBLISHPROFILE_0885F4737D6346F5929C28376ADFFC95 }}
+          publish-profile: ${{ secrets.AZUREAPPSERVICE_PUBLISHPROFILE }}
           package: '*.jar'
