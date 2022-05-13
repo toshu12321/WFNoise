@@ -54,7 +54,6 @@ jobs:
         uses: azure/webapps-deploy@v2
         with:
           app-name: 'wfnoise'
-          slot-name: 'Production'          
-          creds: ${{ secrets.AZURE_CREDENTIALS }}
+          slot-name: 'Production'
           publish-profile: ${{ secrets.AZUREAPPSERVICE_PUBLISHPROFILE }}
           package: my/target/*.jar
