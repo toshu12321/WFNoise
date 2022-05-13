@@ -44,7 +44,7 @@ jobs:
           name: java-app
           
       - name: Login via Az module
-        uses: azure/login@v2
+        uses: azure/login@v1
         with:
           creds: ${{secrets.AZURE_CREDENTIALS}}
           enable-AzPSSession: true
