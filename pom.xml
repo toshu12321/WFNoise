@@ -34,6 +34,15 @@
 			<artifactId>spring-boot-starter-test</artifactId>
 			<scope>test</scope>
 		</dependency>
+		<dependency>
+		    <groupId>com.microsoft.cognitiveservices.speech</groupId>
+		    <artifactId>client-jar-sdk</artifactId>
+		    <version>1.14.0</version>
+		</dependency>
+		<dependency> 
+		    <groupId>org.springframework.boot</groupId> 
+		    <artifactId>spring-boot-starter-thymeleaf</artifactId> 
+		</dependency>
 	</dependencies>
 
 	<build>
